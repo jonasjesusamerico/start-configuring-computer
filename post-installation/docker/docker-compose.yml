@@ -36,7 +36,6 @@ services:
         - 27017:27017
     command: mongod --smallfiles --logpath=/dev/null # --quiet
 
-
 volumes:
   portainer_data:
   postgres_data:
