@@ -23,6 +23,7 @@ sudo apt install git -y
 git config --global user.name "$git_config_user_name"
 git config --global user.email $git_config_user_email
 
+
 echo 'Installing vim...'
 sudo apt install vim -y
 
