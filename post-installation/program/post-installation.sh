@@ -153,6 +153,8 @@ sudo apt install insomnia -y
 ## Necessário para que o webpack consiga ler uuma quantia maior de arquivos
 fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 
+## It is necessary for debugging with golang
+sudo apt-get install build-essential -y
 
 sudo update-alternatives --config java
 
